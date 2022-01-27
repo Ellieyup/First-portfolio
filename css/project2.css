@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Mohave:ital@1&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Merriweather:ital@0;1&family=Mohave:wght@400;500;600;700&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+body {
+  background-color: #fffbee;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  width: 100vw;
+}
+nav {
+  display: flex;
+  font-family: "Mohave", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px gray;
+  font-size: 20px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.box_1 .box_3,
+a:hover {
+  color: rgb(99, 0, 0);
+  text-decoration: underline;
+}
+
+.box_2 {
+  color: rgb(99, 0, 0);
+  text-decoration: underline;
+}
+
+.box_1 {
+  flex-grow: 1;
+  margin-left: 27px;
+  margin-top: 35px;
+}
+
+.box_2,
+.box_3 {
+  margin-top: 35px;
+  margin-right: 27px;
+}
+
+.top_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FCF1E1;
+    border-bottom-left-radius: 378px;
+    width: 100vw;
+    height: 644px;
+}
+
+.cover_element {
+    display: flex;
+    justify-content: center;
+}
+
+#project_name {
+    font-family: "Kaushan Script", cursive;
+    color: rgb(99, 0, 0);
+    font-size: 3.75em;
+}
+
+#project_name_2 {
+    font-family: "Mohave", sans-serif;
+    color: rgb(99, 0, 0);
+    font-size: 2.5em;
+}
+
+.text {
+    margin-top: 180px;
+    padding-left: 255px;
+}
+
+.cover_element > img {
+    margin-top: 100px;
+    width: 522px;
+    height: 633px;
+    
+}
+
+.subject_name {
+    padding: 0px 25px;
+}
+
+.subject_name > h2 {
+    font-size: 2.5em;
+}
+
+.subject_name > p {
+    font-size: 1.25em;
+}
+
+.container_2 {
+    display: flex;
+    margin: 0 auto;
+    width: 85vw;
+    font-family: "Mohave",sans-serif;
+    margin-top: 230px;
+    
+    
+}
+
+span {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.idea_note {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.idea1, .idea2, .idea3, .idea4, .idea5 {
+    border: 1px solid black;
+    border-radius: 31px;
+    height: 130px;
+    width: 45vw;
+}
+
+p {
+    padding: 0px 10px;
+}
+
+.idea1, .idea3, .idea5 {
+    background-color: white;
+}
+
+.idea2, .idea4 {
+    background-color: #F1F1F1;
+}
+
+.container_3 {
+    width: 100%;
+    height: 1600px;
+    background-color: #FCF1E1;
+    border-radius: 0px 378px 0px 0px;
+    margin: 0 auto;    
+    font-family: "Mohave", sans-serif;
+    margin-top: 200px;
+   
+}
+
+.subject_name_1 {
+    color: white;
+    background-color: rgb(99, 0, 0);
+    width: 500px;
+    line-height: 50px;
+    border-radius: 30px;
+    text-align: center;
+   position: relative;
+   bottom: 30px;
+   margin: 0 auto;
+}
+
+.matrix {
+    display: flex;
+    width: 80%;    
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.matrix > img {
+    width: 578px;
+    height: 353px;
+    padding-right: 50px;
+}
+
+.subject_name_2 {
+    font-family: "Mohave", sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+h5 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.storyboard {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.storyboard > img {
+    width: 724px;
+    height: 562px;
+    padding-left: 50px;
+}
+
+.marker {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  .marker__name {
+    font-family: "Kaushan Script", cursive;
+    color: rgb(99, 0, 0);
+    font-size: 50px;
+    transform: rotate(-20deg);
+    margin-top: -34px;
+  }
+  
+  .marker__state {
+    font-family: "Mohave", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 1rem;
+  }

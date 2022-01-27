@@ -1,82 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link href="css/style.css" rel="stylesheet" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ellie's portfolio</title>
-  </head>
-  <body>
-    <nav>
-      <div class="box_1">Portfolio</div>
-      <div class="box_2">Project</div>
-      <div class="box_3">
-        <a href="./About_me.html" >About</a>
-      </div>
-    </nav>
 
-    <header>
-      <!--landing page main-->
-      <div class="statement">
-        <h1 class="designer_statement">"Design based on people"</h1>
+<head>
+  <link href="css/style.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ellie's portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <div class="box_1">Portfolio</div>
+    <div class="box_2">Project</div>
+    <div class="box_3">
+      <a href="./About_me.html">About</a>
+    </div>
+  </nav>
+
+  <header>
+    <!--landing page main-->
+    <div class="statement">
+      <div class="designer_statement">
+        <h1>"Design based on people"</h1>
         <div id="designer_statement_explanation">
           Even in the rapidly changing trend, the most important thing is <span>the
-          person</span> who uses the product. <br /><span>As a designer</span>, I want to find a
-          correlation between products and users by studying <span>the value</span> that<br />starts
+            person</span> who uses the product. <span>As a designer</span>, I want to find a
+          correlation between products and users by studying <span>the value</span> that starts
           with people. At the point, by placing human experience, I will design
-          <span>the story</span> to penetrate<br />into service.
+          <span>the story</span> to penetrate into service.
         </div>
       </div>
-      <div class="landing_img">
-        <img src="./landing_page.png" />
-      </div>
-    </header>
+      <img src="./landing_page.png" id="landing_img" />
+    </div>
+  </header>
+  <section>
+    <!--indicate to scorll & divide section-->
+    <div class="arrow-under">
+      <img src="./arrow-down-sign-to-navigate.png" />
+      <hr />
+    </div>
+  </section>
+  <main>
+    <!--overview of project-->
+    <div class=container>
+      <a href="./project_research.html">
+        <div class="project_1">
+          <h2>Ethnography Research</h3>
+            <h3 id="cover_text"><span>How</span> have their <span>lives</span> changed since they become <span>a
+                vegan?</span></h3>
+        </div>
+      </a>
+      <a href="./project_design.html">
+        <div class="project_2">
+          <img src="./city.png" />
+          <h2>Project Claim the city</h3>
+            <h3>How might we make a strong connection with the city?</h3>
+            <p>(Design an experience that uses a digital feature to achieve the goal)</p>
+        </div>
+      </a>
+      <a href="./project3.html">
+        <div class="project_3">
+          <img src="./gift.png" />
+          <h2>Bespoken Design Project</h3>
+            <h3>Design a digital unwrapping experience</h3>
+            <h3>Only for a specific user</h3>
+        </div>
+      </a>
+    </div>
+  </main>
+  <footer>
+    <!--bottom of page-->
     <section>
-      <!--indicate to scorll & divide section-->
-      <div class="arrow-under">
-        <img src="./arrow-down-sign-to-navigate.png" />
+      <div class="arrow-upper">
         <hr />
+        <img src="./arrow-down-sign-to-navigate.png" />
       </div>
     </section>
-    <main >
-      <!--overview of project-->
-      <div class="project-boxes">
-          <div class="project1__left__main"></div>
-          <!--include overview of project 1 image-->
-          <div class="project1__right"></div>
-          <!--put image that related to project-->
-          <div class="navigation__project__right">view detail</div>
-          <!--navigate to project details & hover-->
-        </div>
-        <div class="project2-boxes">
-          <div class="project2__left"></div>
-          <!--put image that related to project-->
-          <div class="project2__right__main"></div>
-          <!--include overview of project 1 image-->
-          <div class="navigation__project__left">view detail</div>
-          <!--navigate to project details & hover-->
-        </div>
-        <div class="project3-boxes">
-          <div class="project3__left__main"></div>
-          <!--include overview of project 1 image-->
-          <div class="project3__right"></div>
-          <!--put image that related to project-->
-          <div class="navigation__project__right">view detail</div>
-          <!--navigate to project details & hover-->
-        </div>
-      </div>
-    </main>
-    <footer>
-      <!--bottom of page-->
-      <section>
-        <div class="arrow-upper">
-          <hr />
-          <img src="./arrow-down-sign-to-navigate.png" />
-        </div>
-      </section>
+    <div class="marker">
       <div class="marker__name">Ellie's</div>
       <div class="marker__state">Portfolio</div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
